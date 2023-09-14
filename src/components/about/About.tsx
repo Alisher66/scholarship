@@ -2,10 +2,10 @@ import React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
 import Button from '@mui/material/Button';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import Typed from 'react-typed';
 import about_img from "../../assets/images/about-img.png"
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
+import { TypeAnimation } from 'react-type-animation';
 
 function About() {
     const handleClick = () => {
@@ -18,14 +18,17 @@ function About() {
                     <Grid xs={12} sm={6} lg={6}>
                         <Box className="about__content">
                             <h3 className="about__title">
-                                <Typed
-                                    strings={[
-                                        'Imom al-Buxoriy',
-                                        'Ibn Sino',
-                                        'Navoiy']}
-                                    typeSpeed={100}
-                                    backSpeed={20}
-                                    loop
+                                <TypeAnimation
+                                    sequence={[
+                                        "Imom al-Buxoriy",
+                                        1000,
+                                        "Ibn Sino",
+                                        1000,
+                                        "Navoiy",
+                                        1000,
+                                    ]}
+                                    speed={20}
+                                    repeat={Infinity}
                                 />
                                 <br/>
                                 stipendiyasi

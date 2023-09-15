@@ -12,7 +12,7 @@ function App() {
             <Header/>
             <About/>
             {/*<Scholarships />*/}
-            <Media />
+            {/*<Media />*/}
             <ScholarshipInfo />
             <Footer />
         </>

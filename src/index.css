@@ -18,6 +18,10 @@ body {
 .logo {
     display: flex;
     align-items: center;
+    background-color: #ffffffb8;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .logo .logo_title {
@@ -47,6 +51,8 @@ body {
 .menu-link {
     cursor: pointer;
     position: relative;
+    text-decoration: none;
+    color: #000;
 }
 .menu-link::before {
     content: "";
@@ -68,7 +74,7 @@ body {
 
 .about {
     background: linear-gradient(180deg, #eef3fe, #f0f3fd);
-    padding: 30px 0 100px 0;
+    padding: 60px 0 100px 0;
 }
 
 .about__content {
@@ -83,6 +89,7 @@ body {
 .about_img {
     width: 100%;
     object-fit: contain;
+    height: 430px;
 }
 
 .about__content p {

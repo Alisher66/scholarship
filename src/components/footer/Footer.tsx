@@ -8,6 +8,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import PhoneIcon from '@mui/icons-material/Phone';
+import img2 from "../../assets/images/logo12.png"
 
 function Footer() {
     return (
@@ -16,41 +17,40 @@ function Footer() {
                 <Grid container spacing={2} className="footer__top">
                     <Grid xs={12} lg={5}>
                         <Box component="div" className="logo">
-                            <img src={logo_img} alt="logo" className="logo_img"/>
-                            <p className="logo_title">stipendiya.edu.uz</p>
+                            <img src={img2} alt="logo" className="logo_img" width="260px"/>
                         </Box>
-                        <p className="footer__text">Portalda eʼlon qilingan materiallardan nusxa koʻchirish, tarqatish
-                            va boshqa shakllarda foydalanish faqat tahririyat yozma roziligi bilan amalga oshirilishi
-                            mumkin.</p>
+                        {/*<p className="footer__text">Portalda eʼlon qilingan materiallardan nusxa koʻchirish, tarqatish*/}
+                        {/*    va boshqa shakllarda foydalanish faqat tahririyat yozma roziligi bilan amalga oshirilishi*/}
+                        {/*    mumkin.</p>*/}
                     </Grid>
                     <Grid container xs={12}  lg={7}>
                         <Grid xs={12} sm={6} lg={6}>
                             <h6>Biz ijtimoiy tarmoqlarda</h6>
                             <ul className="social-list">
                                 <li className="social-list__item">
-                                    <a href="http://instagram.com/edu.uz/">
+                                    <a href="https://www.instagram.com/nammqiuz/">
                                         <InstagramIcon/>
                                         <span>Instagram</span>
                                     </a>
                                 </li>
                                 <li className="social-list__item">
-                                    <a href="https://t.me/eduuz">
+                                    <a href="https://t.me/nammqiuz">
                                         <TelegramIcon/>
                                         <span>Telegram</span>
                                     </a>
                                 </li>
                                 <li className="social-list__item">
-                                    <a href="http://facebook.com/eduuzrasmiy">
+                                    <a href="https://www.nammqi.uz/">
                                         <FacebookIcon/>
                                         <span>Facebook</span>
                                     </a>
                                 </li>
-                                <li className="social-list__item">
-                                    <a href="http://youtube.com/c/eduuz">
-                                        <YouTubeIcon/>
-                                        <span>YouTube</span>
-                                    </a>
-                                </li>
+                                {/*<li className="social-list__item">*/}
+                                {/*    <a href="http://youtube.com/c/eduuz">*/}
+                                {/*        <YouTubeIcon/>*/}
+                                {/*        <span>YouTube</span>*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
                             </ul>
                         </Grid>
                         <Grid xs={12} sm={6} lg={6}>
@@ -63,25 +63,25 @@ function Footer() {
                                     </a>
                                 </li>
                                 <li className="contact-list__item">
-                                    <a href="tel:+998712306464">
+                                    <a href="tel:+998692341430">
                                         <PhoneIcon/>
-                                        <span> +998712306464</span>
+                                        <span> +998 (69) 234-14-30</span>
                                     </a>
                                 </li>
-                                <li className="contact-list__item">
-                                    <a href="https://t.me/stipendiya_edu_yordambot">
-                                        <TelegramIcon/>
-                                        <span> Telegram bot</span>
-                                    </a>
-                                </li>
+                                {/*<li className="contact-list__item">*/}
+                                {/*    <a href="https://t.me/stipendiya_edu_yordambot">*/}
+                                {/*        <TelegramIcon/>*/}
+                                {/*        <span> Telegram bot</span>*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
                             </ul>
                         </Grid>
                     </Grid>
                 </Grid>
                 <div className="footer__bottom">
-                    <p>2023 © stipendiya.edu.uz</p>
-                    <a href="https://t.me/elektron_talim_markazi">
-                        © Raqamli ta'lim texnologiyalarini rivojlantirish markazi
+                    <p>2023 © kjsst.uz</p>
+                    <a href="https://kjsst.uz/">
+                        © Namangan Muhandisliq Qurilish instituti
                     </a>
                 </div>
             </Container>

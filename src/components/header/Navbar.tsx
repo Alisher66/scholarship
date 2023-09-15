@@ -15,7 +15,7 @@ const pages = ['Yoriqnoma', 'Stipendiyalarga Nomzodlar', 'Hujjatlar talablari', 
 export default function ButtonAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const handleClick = () => {
-        window.location.href = "https://stipendiya.edu.uz/auth/one-id";
+        window.location.href = "https://kjsst.uz/registratsiya.html";
     }
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorElNav(event.currentTarget);
@@ -28,22 +28,22 @@ export default function ButtonAppBar() {
 
     return (
         <Box sx={{flexGrow: 1}}>
-            <AppBar position="static" sx={{backgroundColor:"#fff", pt:"10px", pb:"10px"}}>
+            <AppBar position="static" sx={{backgroundColor:"#fff", pt:"15px", pb:"15px"}}>
                 <Toolbar sx={{justifyContent: "space-between"}}>
                     <Box>
-                        <img src={img2} alt="logo" style={{width: "240px"}}/>
+                        <img src={img2} alt="logo" style={{width: "260px"}}/>
                     </Box>
                     <Box sx={{display: {xs: 'none', md: 'flex'}}}>
                         <Box sx={{flexGrow: 1, display: {xs: 'none', md: 'flex'}}}>
                             <ul className="menu-list">
                                 <li className="menu-item">
-                                    <a className="menu-link">Yoriqnoma</a>
+                                    <a className="menu-link" href="https://kjsst.uz/yoriqnoma.html">Yoriqnoma</a>
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link">Stipendiyalarga Nomzodlar</a>
+                                    <a className="menu-link" href="https://kjsst.uz/stipendiyalarganomzodlar.html">Stipendiyalarga Nomzodlar</a>
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link">Hujjatlar talablari</a>
+                                    <a className="menu-link" href="https://kjsst.uz/yoriqnoma.html">Hujjatlar talablari</a>
                                 </li>
                                 <li className="menu-item menu-item__subscribe">
                                     <Button size="small" variant="contained" onClick={handleClick}>Ro'yhatdan o'tish</Button>

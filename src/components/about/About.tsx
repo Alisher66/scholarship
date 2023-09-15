@@ -44,18 +44,18 @@ function About() {
                             >
                                 Ariza topshirish
                             </Button>
-                            <Box className="about__counter">
-                                <ul>
-                                    <li className="about__counter-item">
-                                        <span>1.923</span>
-                                        Jami ro‘yhatdan o‘tganlar soni
-                                    </li>
-                                    <li className="about__counter-item">
-                                        <span>1.239</span>
-                                        Jami arizalar soni
-                                    </li>
-                                </ul>
-                            </Box>
+                            {/*<Box className="about__counter">*/}
+                            {/*    <ul>*/}
+                            {/*        <li className="about__counter-item">*/}
+                            {/*            <span>1.923</span>*/}
+                            {/*            Jami ro‘yhatdan o‘tganlar soni*/}
+                            {/*        </li>*/}
+                            {/*        <li className="about__counter-item">*/}
+                            {/*            <span>1.239</span>*/}
+                            {/*            Jami arizalar soni*/}
+                            {/*        </li>*/}
+                            {/*    </ul>*/}
+                            {/*</Box>*/}
                         </Box>
                     </Grid>
                     <Grid xs={6} sm={6} lg={6} className="about_bg">

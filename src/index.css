@@ -29,6 +29,42 @@ body {
 .logo .logo_img {
     margin-right: 10px;
 }
+.menu-list {
+    display: flex;
+    align-items: center;
+    color: #000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+/*.menu-item {*/
+/*    position: relative;*/
+/*}*/
+.menu-item +.menu-item {
+    margin-left: 25px;
+}
+.menu-link {
+    cursor: pointer;
+    position: relative;
+}
+.menu-link::before {
+    content: "";
+    width: 0px;
+    position: absolute;
+    height: 2px;
+    border-radius: 0.2px;
+    bottom: -10px;
+    background-color: #1565c0;
+    transition: all 0.3s ease;
+}
+.menu-link__subscribe::before {
+    display: none;
+}
+.menu-link:hover::before {
+    width: 100%;
+}
+
 
 .about {
     background: linear-gradient(180deg, #eef3fe, #f0f3fd);

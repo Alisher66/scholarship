@@ -11,7 +11,7 @@ function App() {
         <>
             <Header/>
             <About/>
-            <Scholarships />
+            {/*<Scholarships />*/}
             <Media />
             <ScholarshipInfo />
             <Footer />

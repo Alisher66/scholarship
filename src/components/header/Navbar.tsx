@@ -15,7 +15,7 @@ const pages = ['Yoriqnoma', 'Stipendiyalarga Nomzodlar', 'Hujjatlar talablari', 
 export default function ButtonAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const handleClick = () => {
-        // window.location.href = "https://kjsst.uz/registratsiya.html";
+        window.location.href = "https://kjsst.uz/registratsiya.html";
     }
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorElNav(event.currentTarget);
@@ -37,13 +37,13 @@ export default function ButtonAppBar() {
                         <Box sx={{flexGrow: 1, display: {xs: 'none', md: 'flex'}}}>
                             <ul className="menu-list">
                                 <li className="menu-item">
-                                    <a className="menu-link" href="#">Yoriqnoma</a>
+                                    <a className="menu-link" href="https://kjsst.uz/yoriqnoma.html">Yoriqnoma</a>
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link" href="#">Stipendiyalarga Nomzodlar</a>
+                                    <a className="menu-link" href="https://kjsst.uz/stipendiyalarganomzodlar.html">Stipendiyalarga Nomzodlar</a>
                                 </li>
                                 <li className="menu-item">
-                                    <a className="menu-link" href="#">Hujjatlar talablari</a>
+                                    <a className="menu-link" href="https://kjsst.uz/Stipendiyalar-talablari.html">Hujjatlar talablari</a>
                                 </li>
                                 <li className="menu-item menu-item__subscribe">
                                     <Button size="small" variant="contained" onClick={handleClick}>Ro'yhatdan o'tish</Button>

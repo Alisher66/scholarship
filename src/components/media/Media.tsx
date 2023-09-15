@@ -5,7 +5,7 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import Button from "@mui/material/Button";
 function Media() {
     const handleClick = () => {
-        window.location.href = "https://stipendiya.edu.uz/auth/one-id";
+        window.location.href = "https://kjsst.uz/registratsiya.html";
     }
     return (
         <section className="media">

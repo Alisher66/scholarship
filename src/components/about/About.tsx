@@ -9,7 +9,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function About() {
     const handleClick = () => {
-        window.location.href = "https://stipendiya.edu.uz/auth/one-id";
+        window.location.href = "https://kjsst.uz/registratsiya.html";
     }
     return (
         <section className="about">

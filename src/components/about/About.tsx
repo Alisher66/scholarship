@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
 import Button from '@mui/material/Button';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import about_img from "../../assets/images/about-img.png"
+import about_img from "../../assets/images/bg2.png"
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { TypeAnimation } from 'react-type-animation';
